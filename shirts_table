@@ -35,3 +35,9 @@ INSERT INTO shirts(color, article, shirt_size, last_worn)
 VALUES('purple', 'polo shirt', 'medium', 50);
  
 SELECT * FROM shirts;
+
+SELECT article, color FROM shirts;
+ 
+SELECT * FROM shirts WHERE shirt_size='M';
+ 
+SELECT article, color, shirt_size, last_worn FROM shirts WHERE shirt_size='M';
