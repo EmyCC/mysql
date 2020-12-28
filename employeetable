@@ -1,9 +1,3 @@
-function main(){
-	console.log("Hello goorm!");
-}
-
-main();
-
 CREATE TABLE employees (
     id INT AUTO_INCREMENT NOT NULL,
     first_name VARCHAR(255) NOT NULL,
